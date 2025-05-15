@@ -2,28 +2,29 @@ body {
       font-family:Arial, Helvetica, sans-serif
 }
 
-.para.child {font-weight:bold;
+.para,
+.small-para {
+  color:hsl(0, 0%, 0%);
+  font-weight: 800;
 }
 
-.big {font-size:40px; 
-  font-weight:bolder
+.para {
+  font-size:22px;
 }
 
-.small-para {font-size:20px;
+.small-para {
+  font-size:14px;
+  font-weight: 800;
+}
+
+#confirm-button {
+  background-color:green;
+  color:white;
   font-weight:bold;
 }
 
-.child {font-size:13px;
-font-weight:bolder;
+div.child {
+  color:rgb(0, 0, 0);
+  font-weight: 100;
+  font-size:22px;
 }
-
-.text1 {font-size:17px
-}
-
-#confirm-button {background-color:green;
-color:white;
-font-weight:bold;}
-
-#cancel-button {background-color:white;
-color:black;}
-
